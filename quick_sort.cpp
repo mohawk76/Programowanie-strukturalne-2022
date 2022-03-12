@@ -17,8 +17,8 @@ void quick_sort(int *tab, int left, int right)
     int pivot = tab[(int)((left + right) / 2)];
     while (true)
     {
-        while (pivot < tab[++i]);
-        while (pivot > tab[--j]);
+        while (pivot > tab[++i]);
+        while (pivot < tab[--j]);
 
         if (i <= j)
             swap(tab + i, tab + j);
@@ -34,20 +34,15 @@ void quick_sort(int *tab, int left, int right)
 
 int main()
 {
-    cout << "Wprowadz trzy liczby, a wyswietle je uporzadkowane malejaco\n";
-    int tab[3];
-    cout << "Wprowadz pierwsza liczbe: ";
-    cin >> tab[0];
-    cout << "Wprowadz druga liczbe: ";
-    cin >> tab[1];
-    cout << "Wprowadz trzecia liczbe: ";
-    cin >> tab[2];
+    int tab[] {5, 1, 3, 7, 9};
 
-    quick_sort(tab, 0, 2);
+    quick_sort(tab, 0, 4);
 
     cout << tab[0] << endl;
     cout << tab[1] << endl;
     cout << tab[2] << endl;
+    cout << tab[3] << endl;
+    cout << tab[4] << endl;
 
     return 0;
 }
