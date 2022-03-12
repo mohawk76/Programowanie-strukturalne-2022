@@ -2,15 +2,15 @@
 
 using namespace std;
 
-int min(int, int);
+double min(double, double);
 
 int main()
 {
-    cout << "Z liczb 100 i 200, mniejsza jest liczba " << min(100, 200) << endl;
+    cout << "Z liczb 100 i 200, mniejsza jest liczba " << min(100.0, 200.0) << endl;
     return 0;
 }
 
-int min(int a, int b)
+double min(double a, double b)
 {
     if (a >= b)
         return b;
