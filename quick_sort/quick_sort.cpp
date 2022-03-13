@@ -2,21 +2,18 @@
 
 using namespace std;
 
-void swap(int *a, int *b)
-{
+void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
-void quick_sort(int *tab, int left, int right)
-{
+void quick_sort(int *tab, int left, int right) {
     if (right <= left) return;
     int i = left - 1;
     int j = right + 1;
-    int pivot = tab[(int)((left + right) / 2)];
-    while (true)
-    {
+    int pivot = tab[(int) ((left + right) / 2)];
+    while (true) {
         while (pivot > tab[++i]);
         while (pivot < tab[--j]);
 
@@ -32,9 +29,8 @@ void quick_sort(int *tab, int left, int right)
         quick_sort(tab, i, right);
 }
 
-int main()
-{
-    int tab[] {5, 1, 3, 7, 9};
+int main() {
+    int tab[]{5, 1, 3, 7, 9};
 
     quick_sort(tab, 0, 4);
 

@@ -4,8 +4,7 @@ using namespace std;
 
 double power(double, double);
 
-int main()
-{
+int main() {
     cout << "2^10 = " << power(2, 10) << endl;
     cout << "2^(-1) = " << power(2, -1) << endl;
     cout << "2^(-2) = " << power(2, -2) << endl;
@@ -15,21 +14,15 @@ int main()
     return 0;
 }
 
-double power(double a, double b)
-{
+double power(double a, double b) {
     if (a == 0)
         return 0;
-    if (b < 0)
-    {
+    if (b < 0) {
         b = -b;
         return (1 / power(a, b));
-    }
-    else if (b == 0)
-    {
+    } else if (b == 0) {
         return 1;
-    }
-    else
-    {
+    } else {
         return a * power(a, b - 1);
     }
 }

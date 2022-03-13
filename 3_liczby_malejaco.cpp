@@ -2,27 +2,22 @@
 
 using namespace std;
 
-void swap(int *a, int *b)
-{
+void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
 }
 
-void bubble_sort(int *tab, int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        for (int j = i + 1; j < size; j++)
-        {
+void bubble_sort(int *tab, int size) {
+    for (int i = 0; i < size; i++) {
+        for (int j = i + 1; j < size; j++) {
             if (tab[i] < tab[j])
                 swap(tab + i, tab + j);
         }
     }
 }
 
-int main()
-{
+int main() {
     cout << "Wprowadz trzy liczby, a wyswietle je uporzadkowane malejaco\n";
     int tab[3];
     cout << "Wprowadz pierwsza liczbe: ";
