@@ -14,9 +14,9 @@ int main() {
 string input(int n) {
     string result;
     int i = 0;
-    char buffor;
-    while (i < n && cin.get(buffor)) {
-        result.push_back(buffor);
+    char buffer;
+    while (i < n && cin.get(buffer)) {
+        result.push_back(buffer);
         i++;
     }
 

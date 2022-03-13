@@ -15,10 +15,10 @@ int main() {
 string input(int n) {
     string result;
     int i = 0;
-    char buffor;
-    while (i < n && cin.get(buffor)) {
-        if (isspace(buffor)) break;
-        result.push_back(buffor);
+    char buffer;
+    while (i < n && cin.get(buffer)) {
+        if (isspace(buffer)) break;
+        result.push_back(buffer);
         i++;
     }
 
