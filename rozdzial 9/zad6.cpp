@@ -11,6 +11,8 @@ int main() {
     cout << "5^2 = " << power(5, 2) << endl;
     cout << "0^0 = " << power(0, 0) << endl;
     cout << "12^0 = " << power(12, 0) << endl;
+    cin.clear();
+    cin.get();
     return 0;
 }
 

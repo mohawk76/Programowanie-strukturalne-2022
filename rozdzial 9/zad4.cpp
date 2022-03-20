@@ -7,6 +7,8 @@ double harmonic_avg(double, double);
 
 int main() {
     cout << "Srednia harmoniczna z 100 i 200 to: " << harmonic_avg(100, 200);
+    cin.clear();
+    cin.get();
     return 0;
 }
 

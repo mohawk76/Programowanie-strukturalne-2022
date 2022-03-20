@@ -13,6 +13,8 @@ int main() {
         if (buffer.empty()) break;
         cout << "Tekst wpisany przez ciebie bez odstepow: " << clear_spaces(buffer) << endl;
     }
+    cin.clear();
+    cin.get();
     return 0;
 }
 

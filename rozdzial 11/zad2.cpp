@@ -10,6 +10,8 @@ int main() {
     cout << "Wprowadz 20 dowolnych znakow lub zakoncz wprowadzenie wpisujac znak bialy:\n";
     string user_input = input(20);
     cout << "Dane ktore wprowadziles to:\n" << user_input;
+    cin.clear();
+    cin.get();
     return 0;
 }
 

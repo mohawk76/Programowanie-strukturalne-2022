@@ -22,7 +22,8 @@ int main() {
     } else {
         not_found_message(test_string, 'x');
     }
-
+    cin.clear();
+    cin.get();
     return 0;
 }
 

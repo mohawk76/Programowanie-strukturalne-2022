@@ -14,6 +14,8 @@ int main() {
          << reinterpret_cast<intptr_t>(found) << endl;
     cout << "Wskaznik na litere 'test' w ciagu znakow '" << test_string << "': " << hex << "0x"
          << reinterpret_cast<intptr_t>(not_found) << endl;
+    cin.clear();
+    cin.get();
     return 0;
 }
 

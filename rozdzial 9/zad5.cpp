@@ -11,6 +11,8 @@ int main() {
     while (cin >> ch) {
         cout << ch << ": " << num_of_alphabet(ch) << endl;
     }
+    cin.clear();
+    cin.get();
     return 0;
 }
 

@@ -12,6 +12,8 @@ int main() {
     my_strncmp(buffer, test_string, 15);
 
     cout << "Po skopiowaniu ciagu '" << test_string << "' w buforze znajduje sie ciag '" << buffer << "'\n";
+    cin.clear();
+    cin.get();
     return 0;
 }
 

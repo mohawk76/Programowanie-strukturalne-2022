@@ -10,6 +10,8 @@ int main() {
     cout << "Wprowadz slowo:\n";
     string user_input = input();
     cout << "Slowo ktore wprowadziles to:\n" << user_input;
+    cin.clear();
+    cin.get();
     return 0;
 }
 

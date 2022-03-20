@@ -39,6 +39,7 @@ int main() {
     cout << tab[2] << endl;
     cout << tab[3] << endl;
     cout << tab[4] << endl;
-
+    cin.clear();
+    cin.get();
     return 0;
 }

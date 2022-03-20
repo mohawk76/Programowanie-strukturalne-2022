@@ -17,6 +17,7 @@ int main() {
         cout << b << endl
              << a << endl;
     }
-
+    cin.clear();
+    cin.get();
     return 0;
 }

@@ -6,6 +6,8 @@ double min(double, double);
 
 int main() {
     cout << "Z liczb 100 i 200, mniejsza jest liczba " << min(100.0, 200.0) << endl;
+    cin.clear();
+    cin.get();
     return 0;
 }
 

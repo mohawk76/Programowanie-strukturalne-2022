@@ -8,6 +8,8 @@ int main() {
     rzad_zn('z', 0, 3);
     rzad_zn('d', 3, 6);
     rzad_zn('z', 0, 3);
+    cin.clear();
+    cin.get();
     return 0;
 }
 

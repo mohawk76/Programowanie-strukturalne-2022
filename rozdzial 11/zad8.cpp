@@ -14,6 +14,8 @@ int main() {
     reverse_str(second_str);
     cout << "Testowe przypadki po odwroceniu:\n" << "\t1. " << first_str << endl;
     cout << "\t2. " << second_str << endl;
+    cin.clear();
+    cin.get();
     return 0;
 }
 

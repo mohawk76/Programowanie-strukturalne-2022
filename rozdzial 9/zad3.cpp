@@ -8,6 +8,8 @@ int main() {
     show_char_x_y('z', 6, 1);
     show_char_x_y('d', 3, 6);
     show_char_x_y('z', 6, 1);
+    cin.clear();
+    cin.get();
     return 0;
 }
 

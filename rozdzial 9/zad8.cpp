@@ -17,6 +17,8 @@ int main() {
     cout << endl;
     convert_number(422, 18);
     cout << endl;
+    cin.clear();
+    cin.get();
     return 0;
 }
 
